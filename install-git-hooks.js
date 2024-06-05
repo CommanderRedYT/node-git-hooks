@@ -54,7 +54,7 @@ function copyDir(src, dest) {
 };
 
 function copy(src, dest) {
-  fs.copyFileSync(src, dest);
+  fs.cpSync(src, dest);
 };
 
 module.exports = installGitHooks;
